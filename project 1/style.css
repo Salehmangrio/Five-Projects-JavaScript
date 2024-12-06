@@ -40,14 +40,25 @@ body {
     font-size: 25px;
     color: red;
 }
+#btn-container{
+    display: flex;
+    justify-content: space-evenly;
+}
 #btn-container button{
     background-color: rgb(56, 190, 244);
     color: #fff;
     padding: 10px 20px;
     border-radius: 50px;
     border: none;
+    cursor: pointer;
+    box-shadow: 0 0 5px  #000;
 }
+#btn-container button:hover{
+    box-shadow: 0 0 20px  #000;
+}
+
 #btn-container #remove{
     background-color: #dadada;
     color: black;
 }
+
